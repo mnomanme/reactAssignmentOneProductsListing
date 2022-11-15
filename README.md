@@ -22,6 +22,6 @@
 
 - All of these questions parts I cover and style a little bit.
 
--Here is my live site [Products Store](https://assignment-one-products-store.netlify.app/)
+- Here is my live site [Products Store](https://assignment-one-products-store.netlify.app/)
 
-![Products Store]("./src/assests/products-store.png")
+![Products Store](https://github.com/mnomanme/reactAssignmentOneProductsListing/blob/master/src/assests/products-store.png)
