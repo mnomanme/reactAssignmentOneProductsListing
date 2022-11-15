@@ -24,4 +24,4 @@
 
 -Here is my live site [Products Store](https://assignment-one-products-store.netlify.app/)
 
-![Products Store](https://asset.cloudinary.com/dc4x56dwb/0754b8ef8fb959cb87e45fc776a362e9)
+![Products Store]("./src/assests/products-store.png")
