@@ -6,14 +6,20 @@ const Product = ({ category, description, image, price, title, rating }) => {
 			<article className="product">
 				<img className="product__img" src={image} alt={title} />
 
-				<div className="product__details">
-					<h4 className="product__title">{title}</h4>
-					<p className="product__price">Price: ${price}</p>
-					<p className="product__rating">Rating: {rate}/5</p>
-					<p className="product__desc"> {description}</p>
-					<p>{category}</p>
-					<button className="product__btn btn">Add to cart</button>
-				</div>
+				<h2 className="product__title">{title.slice(0, 15)}</h2>
+				<p className="product__price">
+					<strong>Price:</strong> ${price}
+				</p>
+				<p>
+					<strong>Rating:</strong>
+					<span className="product__rating"> {rate}/5</span>
+				</p>
+				<h5 className="product__desc"> {description.slice(0, 50)}</h5>
+				<p>
+					<strong>Category: </strong>
+					{category}
+				</p>
+				<button className="product__btn btn">Add to cart</button>
 			</article>
 		</>
 	);
